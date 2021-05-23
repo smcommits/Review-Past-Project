@@ -1,0 +1,184 @@
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+audio {
+  vertical-align: middle;
+}
+
+video {
+  vertical-align: middle;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  vertical-align: middle;
+}
+
+textarea {
+  resize: vertical;
+}
+
+iframe {
+  vertical-align: middle;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+img {
+  vertical-align: middle;
+}
+
+body {
+  background-color: #60a9a6;
+  color: #fddede;
+  text-align: center;
+}
+
+#form-container {
+  background-color: #caf2d7;
+  width: 70%;
+  margin: auto;
+  text-align: left;
+  border: #caf2d7 2px solid;
+  border-radius: 10px;
+  padding: 20px;
+  color: #122422;
+}
+
+svg {
+  vertical-align: middle;
+}
+
+.form-input {
+  background-color: #fddede;
+  display: block;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid #fddede;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-option {
+  display: block;
+  padding: 4px 4px;
+}
+
+label {
+  display: flex;
+}
+
+.form-radio {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.form-checkbox {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#comments {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #fddede;
+  background-color: #fddede;
+}
+
+.submit-button {
+  width: 100%;
+  background-color: #f5fec0;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #fddede;
+  color: #352e2e;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: " ";
+
+  /* 1 */
+  display: table;
+
+  /* 2 */
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+/* ==========================================================================
+    Responsive Rules.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
