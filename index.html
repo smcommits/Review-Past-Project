@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Past Project</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+ <h1 id="title">Survey Form</h1>
+<p id="description">Regular survey</p>
+<div id="form-container">
+  <form id="survey-form">
+    <div class="form-option">
+      <label for="name" id="name-label">Name</label>
+      <input id="name" placeholder="Your Name" type="text" class="form-input" required>
+    </div>
+    <div class="form-option">
+      <label for="email" id="email-label">Email</label>
+      <input id="email" placeholder="Your Email" type="email" class="form-input" required>
+    </div>
+    <div class="form-option">
+      <label for="number" id="number-label">Age</label>
+      <input id="number" max="75" min="18" placeholder="Your Age" type="number" class="form-input">
+    </div>
+    <div class="form-option">
+      <p>Choose Your Country</p>
+      <select id="dropdown" name="country" required class="form-input">
+        <option disabled selected value>Where Are You From?</option>
+        <option value="usa">USA</option>
+        <option value="turkey">Turkey</option>
+        <option value="germany">Germany</option>
+        <option value="france">France</option>
+        <option value="korea">Korea</option>
+        <option value="safrica">South Africa</option>
+        <option value="japan">Japan</option>
+        <option value="uk">UK</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+    <div class="form-option">
+      <p>Please Choose Your Lucky Number</p>
+      <label><input checked name="lucky-number" type="radio" class="form-radio" value="1">1</label>
+      <label><input name="lucky-number" type="radio" class="form-radio" value="2">2</label>
+      <label><input name="lucky-number" type="radio" class="form-radio" value="3">3</label>
+    </div>
+    <div class="form-option">
+      <p>Please Rate Us</p>
+      <label><input name="rate" type="checkbox" class="form-checkbox" value="1">1</label>
+      <label><input name="rate" type="checkbox" class="form-checkbox" value="2">2</label>
+      <label><input name="rate" type="checkbox" class="form-checkbox" value="3">3</label>
+    </div>
+    <div class="form-option">
+      <p>Additional Comments</p>
+      <textarea id="comments" name="comment" placeholder="Please enter your comments"></textarea>
+    </div>
+    <div class="form-option">
+      <button class="submit-button" id="submit" type="submit">
+        Submit
+      </button>
+    </div>
+  </form>
+</div> 
+</body>
+</html>
+
+
